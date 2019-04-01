@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script> -->
+	<script src="dmcplugDate/dmc_utils.js" type="text/javascript"> </script>
+	<script src="dmcplugDate/dmcplugDate.js" type="text/javascript"> </script>
+	<link rel="stylesheet" type="text/css" href="indexCss.css">
+
+</head>
+<body>
+			
+			<div class="container" id="phydel00">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4 idh1">
+							TOOCHE FINALE
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-md-4 idh2">
+							<a href="menuPrincipal.html">
+							<input type="submit" id="idboutonValider" value="ENTREZ" class="btn btn-danger"/>
+							</a>
+						</div>
+						<div class="col-md-4"></div>
+						
+						<div class="col-md-4"></div>
+					</div>
+
+					
+					
+				<div class="row" >
+					<div class="col-md-6" id="phydel01">
+						<div class="row">
+							<div class="col-md-6" id="phydel011"> 
+								<div class="thumbnail" id="phydel0116">
+									<img src="imagesIndex/DobetGnahore.jpg">
+								</div>
+							</div>
+							<div class="col-md-6" id="phydel012">
+								<div class="thumbnail" id="phydel0115">
+									<img src="imagesIndex/DobetGnahore.jpg">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12" id="phydel013">
+								<div class="thumbnail" id="phydel0114">
+									<img src="imagesIndex/DobetGnahore.jpg">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-6" id="phydel02">
+							<div class="row">
+								<div class="col-md-12" id="phydel014">
+									<div class="thumbnail" id="phydel0111">
+										<img src="imagesIndex/DobetGnahore.jpg">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6" id="phydel015">
+									<div class="thumbnail" id="phydel0112">
+										<img src="imagesIndex/DobetGnahore.jpg">
+									</div>
+								</div>
+								<div class="col-md-6" id="phydel016">
+									<div class="thumbnail" id="phydel0113">
+										<img src="imagesIndex/DobetGnahore.jpg">
+									</div>
+								</div>
+							</div>
+					</div>
+
+							
+				</div>
+
+				
+			</div>
+
+
+		<script>
+
+			var uneDate = dmcDate.dmcDategetDate({spacer:"|"});
+						  
+
+			var newDate='';
+
+			newDate=uneDate[6]+uneDate[7]+uneDate[8]+uneDate[9]+"-"+uneDate[3]+uneDate[4]+"-"+uneDate[0]+uneDate[1];
+			// alert(newDate);
+
+
+			document.querySelector('input').min=newDate;
+			var x = document.getElementsByClassName("form-group");
+			// document.getElementById('title').innerHTML='verifions le test';
+
+			$('form').submit(function(e){
+				var date1value=$('#iddo').val();
+				var date2value=$('#iddc').val();
+				
+				var date1Object=new Date(date1value);
+				
+				var date2Object=new Date(date2value);
+				
+				date1Object.setHours(0,0,0,0);
+				date2Object.setHours(0,0,0,0);
+				
+				if(date1Object.valueOf()>date2Object.valueOf()){
+					alert('la date douverture doit etre inferieure ou egale a la date de cloture');
+					
+					
+				}
+		
+				e.preventDefault();
+			});
+		</script>
+	
+	
+</body>
+</html>

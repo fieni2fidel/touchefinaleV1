@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+/*body{
+	background-image: url(iphonex.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+*/
+
+
+.idh1{
+	/*position: center;*/
+	/*text-align: center;*/
+	text-align: center;
+	margin: 25% 25% 25% 25%;
+	/*margin-top: 21.5%;*/
+	/*margin-left: 25%;*/
+	position: absolute;
+	z-index: 2;
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	/*-webkit-filter: sepia(100%);  Safari 6.0 - 9.0 
+  	filter: sepia(100%);
+*/  font-family: 'Roboto', sans-serif;
+  	opacity: 0.8;
+  	border-radius: 5px;
+  	padding: 0px;
+  	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  	box-shadow:10px 10px 5px 0px rgba(0,0,0,0.5);;
+}
+.idh2{
+	/*position: center;*/
+	/*text-align: center;*/
+	margin: 5px;
+	/*margin-top: 40%;
+	margin-left: 38%;*/
+	/*position: absolute;*/
+	z-index: 2;
+	/*background-color: grey;*/
+	color: black;
+	/*-webkit-filter: sepia(100%);  Safari 6.0 - 9.0 
+  	filter: sepia(100%);*/
+  	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+#phydel00{
+	
+
+}
+
+#phydel01,#phydel02{
+		
+		margin: 0px;
+		padding: 0 0;
+		
+}
+	
+#phydel011,#phydel012,#phydel013,#phydel014,#phydel015,#phydel016{
+	
+	padding: 0px;
+}
+#phydel0111,#phydel0112,#phydel0113,#phydel0114,#phydel0115,#phydel0116{
+	margin: 0 0;
+	
+}
+
+
+/*#aa{
+	background-color: #333;
+	padding: 30px;
+	margin-top: 20px;
+	border-radius: 10px;
+	opacity: 0.98;
+}
+
+#aa label, p, h2{
+	color: #fff;
+}*/
+

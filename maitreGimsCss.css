@@ -223,3 +223,80 @@ h1, h4 {
 h1 i {
   color: pink;
 }
+
+.playlistArtiste, .infoSpectaclesArtisteX{
+	margin-top: 75px;
+}
+/*.infoSpectaclesArtisteX{
+	background-color: white;
+}*/
+
+.dateSpectacleArtiste{
+background-color: white;
+color: #392E2C;
+padding: 0px;
+text-align: center;
+margin: 2px;
+
+}
+
+.jourSpectacleArtiste{
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.moisSpectacleArtiste{
+	color: white;
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+}
+
+.heureSpectacleArtiste{
+	color: white;
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+}
+
+.nomSpectacleArtiste, .typeSpectacleArtiste, .salleSpectacleArtiste, .villeSpectacleArtiste, .tarifSpectacleArtiste{
+	
+	padding: 0px;
+	text-align: right;
+	margin: 0px;
+}
+
+.nomSpectacleArtiste, .tarifSpectacleArtiste{
+	color:  #7C6A19;
+}
+
+.salleSpectacleArtiste{
+	color: white;
+}
+
+.typeSpectacleArtiste, .villeSpectacleArtiste{
+	color: #BFDCD8;	
+}
+
+.tarifSpectacleArtiste{
+	margin-top: 25px;
+}
+
+hr{
+	color: white;
+}
+
+.paragrapheTarifSpectacleArtiste{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*.infoSpectacleArtiste{
+	color: black;
+	text-align: center;
+	padding: 1px;
+	margin: 1px;
+}*/
